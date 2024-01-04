@@ -44,3 +44,9 @@ show_mytask = () => {
 }
 
 show_mytask();
+
+inputBox.addEventListener("keypress", (event) => {
+    if (event.key === 'Enter') {
+        addTask();
+    }
+});
